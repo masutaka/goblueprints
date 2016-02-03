@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/masutaka/gowebbook/trace"
+	"github.com/masutaka/goblueprints/chapter1/trace"
 	"log"
 	"net/http"
 	"os"
