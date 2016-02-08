@@ -9,21 +9,21 @@ import (
 	"text/template"
 )
 
-// temp1 は 1 つのテンプレートを表します
+// templ は 1 つのテンプレートを表します
 type templateHandler struct {
 	once     sync.Once
 	filename string
-	temp1    *template.Template
+	templ    *template.Template
 }
 
 // ServeHTTP は HTTP リクエストを処理します
 func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	t.once.Do(func() {
-		t.temp1 =
+		t.templ =
 			template.Must(template.ParseFiles(filepath.Join("templates",
 				t.filename)))
 	})
-	t.temp1.Execute(w, r)
+	t.templ.Execute(w, r)
 }
 
 func main() {
