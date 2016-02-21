@@ -1,4 +1,9 @@
+.envrc
 /chapter1/chat/chat
 /chapter2/chat/chat
 /chapter3/chat/avatars/*
 /chapter3/chat/chat
+/chapter4/domainfinder/domainfinder
+/chapter4/domainfinder/lib/*
+
+!/chapter4/domainfinder/lib/.keepme
