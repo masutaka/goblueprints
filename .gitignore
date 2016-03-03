@@ -5,5 +5,7 @@
 /chapter3/chat/chat
 /chapter4/domainfinder/domainfinder
 /chapter4/domainfinder/lib/*
+/chapter5/socialpoll/counter/counter
+/chapter5/socialpoll/twittervotes/twittervotes
 
 !/chapter4/domainfinder/lib/.keepme
