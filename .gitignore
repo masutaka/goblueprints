@@ -7,5 +7,9 @@
 /chapter4/domainfinder/lib/*
 /chapter5/socialpoll/counter/counter
 /chapter5/socialpoll/twittervotes/twittervotes
+/chapter6/socialpoll/api/api
+/chapter6/socialpoll/counter/counter
+/chapter6/socialpoll/twittervotes/twittervotes
+/chapter6/socialpoll/web/web
 
 !/chapter4/domainfinder/lib/.keepme
